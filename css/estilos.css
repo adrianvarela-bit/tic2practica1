@@ -1,13 +1,40 @@
 body {
     font-family: Arial, sans-serif;
-    color: #172033;
+    color: #1eff00;
+    background-image: url("./img/matrixbackground.png");
 }
   
 h1 {
-    color: #155e75;
+    color: #ff0000;
+    margin: 20px;
+}
+
+h2 {
+    color: #ff0000;
+    margin: 20px;
+}
+
+h3 {
+    color: #23631a;
+    margin: 20px;
 }
 
 .tarjeta {
     border: 1px solid #cbd5e1;
     padding: 1rem;
+}
+
+p {
+    margin: 10px;
+}
+
+div {
+    margin: 0px 5px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    height: 400px;
 }
